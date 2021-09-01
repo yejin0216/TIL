@@ -1,5 +1,5 @@
 # description 
-Today I Learned :pencil2: 
+Today I Learned :pencil2:   
 오늘 보고 배운 것을 정리하는 블로그입니다.
 
 # usages
