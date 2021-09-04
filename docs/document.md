@@ -1,6 +1,6 @@
-# Document 
+# document 
 
-## document.activeElement 
+## activeElement 
 DOM에서 현재 포커스 받은 Element 객체를 반환한다. 
 ```html
 <body>
