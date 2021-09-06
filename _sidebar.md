@@ -11,6 +11,6 @@
   - [window](docs/window.md)
   - [document](docs/document.md)
 
-- Webpack
+- Tooling
 
-  - [로더(loader)](docs/loader.md)
+  - [Webpack](docs/webpack.md)
