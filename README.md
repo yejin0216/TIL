@@ -9,7 +9,7 @@
   npm i docsify-cli -g
 ```
 
-- code 복제  
+- TIL Repository 복제  
 ```bash
   cd [your-workspace]
   git clone https://github.com/yejin0216/TIL.git
