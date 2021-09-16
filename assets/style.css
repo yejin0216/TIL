@@ -1,0 +1,10 @@
+pre::after {
+  display: none !important;
+} 
+pre, pre code {
+  background-color: #2e2e2e !important; 
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important; 
+}
+pre code, pre code span.punctuation {
+  color: white !important;
+}

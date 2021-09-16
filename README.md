@@ -4,9 +4,18 @@
 
 # Usages
 
+- docsify-cli 설치
 ```bash
-  npm i -g docsify
+  npm i docsify-cli -g
+```
+
+- code 복제  
+```bash
   cd [your-workspace]
   git clone https://github.com/yejin0216/TIL.git
+```
+
+- docsify 실행 
+```bash
   docsify serve
 ```

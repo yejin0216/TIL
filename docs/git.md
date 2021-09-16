@@ -11,13 +11,13 @@
 
 1. 브랜치 생성
 
-   ```
+   ```bash
    git checkout --orphan ${orphan-branch-name}
    ```
 
 2. Staged 상태인 모든 파일을 제거한다.
 
-   ```
+   ```bash
    git rm --cached -r .  // Unstage 상태로 변경
    git clean -f .   // 모든 파일 제거
    git clean -fd .   // 모든 폴더 제거
@@ -25,7 +25,7 @@
 
 3. 브랜치를 커밋/푸시한다.
 
-   ```
+   ```bash
    git commit --allow-empty -m "initial commit"
    git push origin ${orphan-branch-name}
    ```
