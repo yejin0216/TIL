@@ -18,3 +18,8 @@
 - TypeScript
 
   - [TypeScript](docs/typescript.md)
+
+
+- Data Structures 
+  
+  - [Data Structures](docs/dataStructures.md)
