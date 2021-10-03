@@ -13,5 +13,11 @@
 ## 자료구조 분류 
 
  - Array 
+   - static array 
+   - dynamic array 
+
  - Hash Table 
+ 
  - Linked List
+   - Singly Linked List 
+   - Doubly Linked List
