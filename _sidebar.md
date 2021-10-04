@@ -22,4 +22,4 @@
 
 - Data Structures 
   
-  - [Data Structures](docs/dataStructures.md)
+  - [Data Structures](docs/data-structures.md)
