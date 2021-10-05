@@ -8,7 +8,7 @@
 
 ## Big O Cheat Sheet 
 
-[Big O Cheat Sheet ](https://www.bigocheatsheet.com/)
+[Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 ## 자료구조 분류 
 
@@ -18,6 +18,6 @@
 
  - Hash Table 
  
- - Linked List
+ - [Linked List](../ds/linked_list.md)
    - Singly Linked List 
    - Doubly Linked List
