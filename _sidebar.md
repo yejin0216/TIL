@@ -20,6 +20,7 @@
   - [TypeScript](docs/typescript.md)
 
 
-- Data Structures 
+- Computer Science 강의노트 
   
+  - [OS](docs/os.md)
   - [Data Structures](docs/data-structures.md)
