@@ -1,13 +1,15 @@
 # git
 
-## orphan branch
+## Reference
 
-### 정의
+### orphan branch
+
+#### 정의
 
 하나의 저장소에서 다른 브랜치나 커밋으로부터 단절된 새로운 history를 가지는 브랜치를 의미한다.
 다른 브랜치와 독립적으로 운영할 수 있다.
 
-### 생성 방법
+#### 생성 방법
 
 1. 브랜치 생성
 
@@ -30,11 +32,23 @@
    git push origin ${orphan-branch-name}
    ```
 
-## worktree
+### worktree
 
 동일한 저장소에 연결된 여러 작업 트리를 관리한다.
 
-## 파일명 대소문자 변경 방법
+### cherry-pick
+
+git log에서 특정한 commit 하나만 꼭 집어서, 현재 HEAD가 가르키는 branch에 추가할 수 있다.
+rebase와 달리 다른 브랜치의 commit도 rebase할 수 있다.
+
+```bash
+   git cherry-pick <commit_hash-1> // 1만 적용
+   git cherry-pick <commit_hash-1>..<commit_hash-3> // 1부터 3까지 모두 적용  
+```
+
+## Tips 
+
+### 파일명 대소문자 변경 방법
 
 git은 파일명의 대소문자가 변경될 경우 인식하지 못한다. 해결방법은 아래 두가지이다. 
    
@@ -46,10 +60,13 @@ git은 파일명의 대소문자가 변경될 경우 인식하지 못한다. 해
    ```bash 
      git mv App.tsx app.tsx 
    ```
-## git repository 별로 config 설정하기 
+
+### git repository 별로 config 설정하기 
 
 ```bash
    git config --local user.name "name"
    git config --local uesr.email "email@gmail.com"
    git config --local --list // 확인하기 
 ```
+
+### 

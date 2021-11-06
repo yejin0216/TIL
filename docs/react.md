@@ -1,6 +1,6 @@
 # react
 
-## cra에서 bundle-analyzer 설정하기 
+## CRA에서 bundle-analyzer 설정하기 
 
 [cra-bundle-analyzer](https://www.npmjs.com/package/cra-bundle-analyzer) 를 설치한 뒤 npx로 실행한다.
 
