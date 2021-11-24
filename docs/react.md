@@ -15,3 +15,10 @@
     ```bash 
     npx cra-bundle-analyzer
     ```
+    
+## Ref 
+
+Ref는 render 메서드에서 생성된 DOM 노드나 React 엘리먼트에 접근하는 방법을 제공한다. 
+
+- useRef
+    - .current의 값을 변경시켜도 리랜더링되지 않는다. (컴포넌트 생애주기에는 포함됨)
