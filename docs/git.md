@@ -2,6 +2,13 @@
 
 ## Reference
 
+### git merge 할 때 고려할 점
+
+- Fastforward merge가 가능한 경우
+- Fastforward merge가 불가능한 경우
+  - _merge_ -> _commit_ -> success
+  - _merge_ -> _conflict_ -> _resolve_ -> _commit_ -> success
+
 ### orphan branch
 
 #### 정의
