@@ -1,24 +1,17 @@
-- Git
+- Javscript
 
-  - [git](docs/git.md)
-
-- HTML
-
-  - [window](docs/window.md)
-  - [document](docs/document.md)
+  - [Javscript](docs/javascript.md)
+  - [TypeScript](docs/typescript.md)
 
 - React
 
   - [React](docs/react.md)
-  - [CheetSheet](docs/reactcs.md)
+  - [React CheetSheet](docs/reactcs.md)
 
 - Tooling
 
+  - [git](docs/git.md)
   - [Webpack](docs/webpack.md)
-
-- TypeScript
-
-  - [TypeScript](docs/typescript.md)
 
 - Computer Science 강의노트
 
