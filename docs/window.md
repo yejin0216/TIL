@@ -1,6 +1,0 @@
-# window
-
-## window.requestAnimationFrame()
-
-
-
