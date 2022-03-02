@@ -21,3 +21,4 @@ TV에서 처음 도입된 개념으로 TV 해상도 비율이 다양해지면서
 2. BFCache는 탐색 속도를 높일 뿐만 아니라 리소스를 다시 다운로드 할 필요가 없기 때문에 데이터 사용량도 줄일 수 있다.
 
 (참고) [!BFCache](https://web.dev/bfcache)
+(참고) [!이전/다음 페이지 캐시](https://ui.toast.com/weekly-pick/ko_20201201)
