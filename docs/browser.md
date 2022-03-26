@@ -26,11 +26,11 @@ TV에서 처음 도입된 개념으로 TV 해상도 비율이 다양해지면서
 ### CrossBrowsing
 
 1. AOS 크롬
- - keypress, preventDefault 작동하지 않는다. : keypress 대신 keyup, keydown 써야한다.
+ - keypress 작동 X : keypress 대신 keyup, keydown 써야한다. [!몇몇 브라우저에서 지원하지 않아서 Deprecated 되었다.](https://developer.mozilla.org/en-US/docs/Web/API/Document/keypress_event)
 
 2. IOS 사파리
  - input, textarea 입력이 불가능할 경우 css에 내용을 수정한다.
   ```css
     * {-webkit-user-select:none;} // 사파리에서 입력 방지됨
-    input, textarea {-webkit-user-select:auto;}
+    input, textarea {-webkit-user-select:auto;} // 입력 가능하도록 수정 필요
   ```
