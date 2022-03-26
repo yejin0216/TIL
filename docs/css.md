@@ -23,3 +23,15 @@
 #### scale-down
 
 contain과 none 중에 크기가 더 작아지는 값을 택한다.
+
+
+### ::selection
+
+사용자에 의해 선택된 영역, 즉 드래그한 영역의 스타일을 변경하는 CSS 속성이다.
+
+```CSS
+  ::selection {
+    color: #000000;
+    background-color: #ffffff;
+  }
+```
