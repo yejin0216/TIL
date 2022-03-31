@@ -22,3 +22,4 @@
   - [Git](docs/git.md)
   - [Webpack](docs/webpack.md)
   - [Browser](docs/browser.md)
+  - [Tools](docs/tools.md)
