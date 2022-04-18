@@ -7,6 +7,7 @@
 
   - [React](docs/react.md)
   - [React CheetSheet](docs/reactcs.md)
+  - [SWR/ReactQuery](docs/query.md)
 
 - HTML
 
