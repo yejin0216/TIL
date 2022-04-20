@@ -136,16 +136,31 @@ DOM에서 현재 포커스 받은 Element 객체를 반환한다.
 </script>
 ```
 
+## Web API
+
+### Element.getBoundingClientRect()
+
+getBoundingClientRect 메서드는 엘리먼트 크기와 viewport에 상대적인 위치 정보를 제공하는 DOMRect 객체를 반환한다.
+
+- 특이사항
+  - padding, border를 포함한다.
+  - viewport 왼쪽-상단(top-left)을 기준으로 위치, 사이즈 제공 (left, top, right, bottom, x, y, width, height)
+  -
+
+### Window.getComputedStyle()
+
+getComputedStyle()는 인자로 받은 Element의 모든 CSS 속성값을 담은 객체를 반환한다.
+
 ### Intersection Observer API (교차 관찰자 API)
 
-타겟 요소와 상위 요소 또는 최상위 document와 viewport 사이의 intersection 내의 변화를 비동기적으로 관찰하는 방법이다.
+타겟 Element와 상위 Element 또는 최상위 document와 viewport 사이의 intersection 내의 변화를 비동기적으로 관찰하는 방법이다.
 
 - 페이지가 스크롤 되는 도중에 발생하는 이미지나 다른 컨텐츠의 **지연 로딩**
 - 스크롤 시에 더 많은 컨텐츠가 로드 및 렌더링되는 **infinite scroll 구현**
 - 사용자에게 결과가 표시되는 여부에 따라 작업이나 애니메이션을 수행할지 여부를 결정
 - 광고 수익을 계산하기 위한 용도로 광고의 가시성 보고
 
-Intersection Observer API는 감시하려는 요소가 viewport에 들어가거나 나갈 때, 또는 요청한 부분만큼 두 요소의 교차 부분이 변경될 때마다 콜백 함수를 등록할 수 있게 한다. 즉, **사이트는 요소이 교차를 지켜보기 위해 메인 스레드를 사용할 필요가 없고 브라우저는 원하는 대로 교차 영역을 최적화할 수 있다.**
+Intersection Observer API는 감시하려는 Element가 viewport에 들어가거나 나갈 때, 또는 요청한 부분만큼 두 Element의 교차 부분이 변경될 때마다 콜백 함수를 등록할 수 있게 한다. 즉, **사이트는 요소이 교차를 지켜보기 위해 메인 스레드를 사용할 필요가 없고 브라우저는 원하는 대로 교차 영역을 최적화할 수 있다.**
 
 ```javascript
 const callback = (entries, observer) => {
