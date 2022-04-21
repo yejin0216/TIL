@@ -1,5 +1,30 @@
 # javascript
 
+## General
+
+### 얕은 비교
+
+- 원시값을 비교할 때, 값을 비교한다.
+  ```javascript
+  const a1 = 'a';
+  const a2 = 'a';
+  console.log(a === b); // true, 원시 값 비교
+  ```
+- Object를 비교할 때, 속성이 아닌 reference를 비교한다.
+  ```javascript
+  const a1 = { a: 'a' };
+  const a2 = { a: 'a' };
+  console.log(a === b); // false, 주소 값 비교
+  ```
+
+### 얕은 복사
+
+- 객체를 복사하면, 복사된 객체는 원본 객체와 같은 메모리 주소를 참조한다.
+
+### 깊은 복사
+
+- 객체를 복사할 때, 해당 객체와 인스턴스 변수까지 복해서 새 주소에 담는다.
+
 ## Native
 
 ### var의 문제점
