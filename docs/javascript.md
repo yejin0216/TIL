@@ -170,13 +170,18 @@ getBoundingClientRect 메서드는 엘리먼트 크기와 viewport에 상대적�
 - 특이사항
   - padding, border를 포함한다.
   - viewport 왼쪽-상단(top-left)을 기준으로 위치, 사이즈 제공 (left, top, right, bottom, x, y, width, height)
-  -
 
 ### Window.getComputedStyle()
 
 getComputedStyle()는 인자로 받은 Element의 모든 CSS 속성값을 담은 객체를 반환한다.
 
-### Intersection Observer API (교차 관찰자 API)
+### Observer
+
+[참고자료 : 3 Web Observers Every Web Developer Should Know](https://levelup.gitconnected.com/3-web-observers-every-web-developer-should-know-c2f65302b5df)
+
+#### Mutation Observer API
+
+#### Intersection Observer API
 
 타겟 Element와 상위 Element 또는 최상위 document와 viewport 사이의 intersection 내의 변화를 비동기적으로 관찰하는 방법이다.
 
