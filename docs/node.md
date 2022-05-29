@@ -11,7 +11,7 @@
   npx sort-package-json
 ```
 
-### 특정 버전의 npm 라이브러리 다운로드 받는 법ㅂ
+### 특정 버전의 npm 라이브러리 다운로드 받는 법
 
 ```
   npm i react@{version}
